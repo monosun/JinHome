@@ -1,5 +1,5 @@
 /**
- * 
+ * 고객의 요구사항을 정의한 인터페이스
  */
 package com.monosun.client.request;
 
@@ -17,6 +17,10 @@ public interface Request {
 	 */
 	public void pushJob(Job job);
 	
+	/**
+	 * 주어진 Job 가장 최근 값 리턴한다.
+	 * @return
+	 */
 	public Job popJob();
 		
 
