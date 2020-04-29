@@ -21,10 +21,11 @@ public class CopyAction extends AbstractAction
 		this.frame=frame;
 	}
 	/**
+	 * 복사하기 
 	 * @see java.awt.event.ActionListener#actionPerformed(ActionEvent)
 	 */
 	public void actionPerformed(ActionEvent e)
 	{
-		
+		frame.getEditor().copy();
 	}
 }
