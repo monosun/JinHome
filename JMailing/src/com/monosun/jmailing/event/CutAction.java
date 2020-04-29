@@ -18,8 +18,11 @@ public class CutAction extends AbstractAction
  		setEnabled(false);
  		this.frame=frame;
  	} 
- 	
+ 	/**
+ 	 * CutAction 이벤트 짤라서 클립보드에 넣기
+ 	 */
  	public void actionPerformed(ActionEvent e) 
  	{
+ 		frame.getEditor().cut();
  	}
 }
