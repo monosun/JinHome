@@ -16,7 +16,9 @@ public class ExitAction extends AbstractAction
 	    super("exit");
 		this.frame=frame;
 	}
-	
+	/**
+	 * Exit 버튼 클릭에 대한 액션
+	 */
 	public void actionPerformed(ActionEvent e) 
 	{
 		    System.exit(0);
